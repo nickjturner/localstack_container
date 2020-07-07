@@ -10,6 +10,8 @@ This example creates a Dockerized LocalStack flow linking some SNS topics, SQS q
 
 It takes an SNS event with a JSON message e.g. `{"key": "test.pdf"}`, checks if that file exists in the S3 bucket, and outputs the result to an SQS queue.
 
+![test-flow](https://user-images.githubusercontent.com/67937058/86827733-fd257680-c057-11ea-9a56-ba9b4f861038.png)
+
 To test this example:
 
 1. Clone the repo
